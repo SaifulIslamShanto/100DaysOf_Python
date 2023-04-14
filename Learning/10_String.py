@@ -21,7 +21,7 @@ hello3 = '''hello world,
 programming'''
 print(hello3)
 
-print("\nLets use a for Loop\n")
+print("\nLets use a for Loops\n")
 name="Shanto"
 for character in name:
     print(character)
