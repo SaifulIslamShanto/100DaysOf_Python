@@ -1,0 +1,7 @@
+syntexError: EOL while scanning string literal
+=> EOL -> END OF LINE
+=> syntex বা লেখায় কোন ভুল থাকে syntexError Show করে।
+
+
+IndexError:
+=> ইন্ডেক্স এ কিছু না থাকলে IndexError Show করে।
