@@ -23,5 +23,6 @@ print(hello3)
 
 print("\nLets use a for Loops\n")
 name="Shanto"
+print("String length is ", len(name))
 for character in name:
     print(character)
