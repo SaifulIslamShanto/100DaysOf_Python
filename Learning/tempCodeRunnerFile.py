@@ -1,6 +1,7 @@
-print(len1)
-# print(fruit[0:4])
-# print(fruit[:4]) #automaticaly Add 0
-# print(fruit[1:4])
-# print(fruit[1:]) #add length 
-# print(fruit[0:-3]) #print(fruit[0:len(fruit = 5)-3])
+num1 = int(input("Enter A Number : "))
+rem1 = num1 % 2
+
+if (rem1 == 0):
+    print(num1, "Is an Even Number")
+else:
+    print(num1, "Is an odd Number")
