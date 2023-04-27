@@ -1,15 +1,15 @@
 a = 10
-print(type(a))
+print(type(a), a)
 b = "shanto"
-print(type(b))
+print(type(b), b)
 c = True
-print(type(c))
+print(type(c), c)
 d = None
-print(type(d))
+print(type(d), d)
 e = 10.1
-print(type(e))
+print(type(e), e)
 f = complex(10.1)
-print(type(f))
+print(type(f), f)
 list1 = [8, 2, 3, [-4, 5], ["apple", "android"]]
 print(list1)
 

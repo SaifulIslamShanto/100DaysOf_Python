@@ -1,13 +1,12 @@
 # arithmetic Operartor
 """
-print(5+6)          # -> addition
-print(15-6)         # -> subtraction
-print(15*6)         # -> Multiplication 
-print(15**6)         # -> Exponential 
-print(5/2)         # -> division        => 2.5
-print(5//2)        # -> Floor Division  => 2
-print(15 % 6)       # -> Modulus
-print(2**3)       # -> Modulus
+print(5+6)                      # -> addition
+print(15-6)                     # -> subtraction
+print(15*6)                     # -> Multiplication 
+print(15**6)                    # -> Exponential 
+print(5/2)                      # -> division        => 2.5
+print(5//2)                     # -> Floor Division  => 2
+print(15 % 6)                   # -> Modulus
 """
 
 # Create a calculator

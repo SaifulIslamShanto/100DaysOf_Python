@@ -5,3 +5,6 @@ Which type project i can craete
 * face recognigation
 * fllipi bird
 * snakck game
+* Qr Code Genarator
+* Tic Tac TOO game
+* 
