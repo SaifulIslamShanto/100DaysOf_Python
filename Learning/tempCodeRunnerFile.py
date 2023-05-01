@@ -1,4 +1,6 @@
-listS = [11, 22, 3, 4, 5]
-listS.sort()  # -> ছোট থেকে বড় আকারে আসবে
-listS.sort(reverse=True)  # -> বড় থেকে ছোট আকারে আসবে
-print(listS)
+print(type(len), tup)
+print(tup[0])
+print(tup[1])
+print(tup[2])
+print(tup[3])
+print(tup[4])
