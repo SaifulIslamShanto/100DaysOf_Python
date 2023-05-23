@@ -1,2 +1,6 @@
-    # a = [6, 3]
-    # print(a[num])
+if (a < b):
+    print("A")
+elif (a == b):
+    print("=")
+else:
+    print("B")

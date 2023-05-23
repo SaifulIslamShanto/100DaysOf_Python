@@ -4,7 +4,7 @@
 """
 
 
-def DollerRate(a=106):
+def DollerRate(a=104):
     print("Doller To BDT : ", a*iGetWithdrow)
 
 
