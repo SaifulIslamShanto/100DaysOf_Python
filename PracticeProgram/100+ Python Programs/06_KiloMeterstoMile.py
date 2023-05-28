@@ -1,7 +1,7 @@
 
 # * soluation 1
 # -> 1KM to 0.621371 Miles
-
+ 
 """ km = float(input("Enter Your Value In KMS : "))
 miles = km*0.621371
 print(km, "KMS WIll BE : ", miles, " miles")

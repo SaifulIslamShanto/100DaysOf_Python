@@ -8,3 +8,4 @@ elif (num % 2 == 1):
     print(num, "The Number is ODD")
 else:
     print("WRONG NUMBER")
+     

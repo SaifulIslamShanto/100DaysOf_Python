@@ -1,7 +1,7 @@
 # 07_NumberPositiveNegativeOrZero.py
 
 """ num = int(input("Enter A Number : "))
-
+ 
 if (num > 0):
     print(num, "The Number is Positve")
 elif (num < 0):
