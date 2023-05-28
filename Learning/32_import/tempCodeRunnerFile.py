@@ -1,0 +1,2 @@
+import shanto
+shanto.welcome()
