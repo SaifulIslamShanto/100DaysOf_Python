@@ -1,6 +1,2 @@
-if (a < b):
-    print("A")
-elif (a == b):
-    print("=")
-else:
-    print("B")
+a = 4
+b = '4'
