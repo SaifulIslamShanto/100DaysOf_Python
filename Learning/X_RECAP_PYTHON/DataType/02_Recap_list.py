@@ -159,5 +159,21 @@ print(len(language)) """
 
 # Python List Comprehension -> NEED TO LEARN
 
-numbers = [number*number for number in range(1, 6)]
-print(numbers)
+# numbers = [number*number for number in range(1, 6)]
+# print(numbers)
+
+# * ---------------------------------------
+
+""" first_list = [1, 2, 3]
+print(first_list+[4, 5, 6])
+print(first_list*3) """
+
+# -> Check Element In List
+
+fruits = ["apple", "orange", "pineappe", "grape"]
+
+# print("orange" in fruits)
+# print("apple" in fruits)
+# print("rice" in fruits)
+print("apple" in fruits)
+print("rice" not in fruits)
