@@ -28,7 +28,7 @@ a.info()
  """
 
 
-class Monster:
+""" class Monster:
     def __init__(self, color, heads):
         self.color = color
         self.heads = heads
@@ -36,13 +36,32 @@ class Monster:
     def attack(self):
         print("Just attacked a Hero, Mu...hahahaha!!!")
 
+
 # Create an instance/object/monster-character
 mournsnake = Monster("Yellow", 4)
 # Check if its created or not
 print('I am a ' + str(mournsnake.heads) + ' headed monster.')
 # Make an attack by the new monster
-mournsnake.attack()
+mournsnake.attack() """
 
+
+class Person:
+    def __init__(self, name, age):
+        self.nameIs = name
+        self.ageIs = age
+
+    def info(self):
+        print(
+            f"Person Name IS : {person1.nameIs} \nPerson Age is : {person1.ageIs}")
+
+
+person1 = Person("Shanto", 24)
+person1.info()
+
+
+
+# print(type(person1.nameIs))
+# print(type(person1.ageIs))
 
 
 # * https://python.howtocode.dev/oop-python/class
