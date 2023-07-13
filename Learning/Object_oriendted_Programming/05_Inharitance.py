@@ -147,8 +147,7 @@ except cutomError as e:
 # print(temp)
 
 
-
-class Calculator:
+""" class Calculator:
     def __init__(self,a,b):
         self.a=a
         self.b=b
@@ -172,7 +171,7 @@ class Supercalculator(Calculator):
         return self.c * self.c
     def cube(self):
         return self.c * self.c * self.c
-        
+
 
 A=int(input("GIVE NUMBER 1: "))
 B=int(input("GIVE NUMBER 2: "))
@@ -189,4 +188,92 @@ print(A,"/",B,"= ",temp)
 temp=MYCALCULATOR.squre()
 print(C,"*",C,"= ",temp)
 temp=MYCALCULATOR.cube()
-print(C,"*",C,"*",C,"= ",temp)
+print(C,"*",C,"*",C,"= ",temp) """
+
+# ----------------------------------
+
+"""
+class monster:
+    def __init__(self, name, color):
+        self.name = name
+        self.color = color
+
+    def attack(self):
+        print("I am attacking...")
+
+
+class Fogthing(monster):  # * |> Inharit
+    def make_sound(self):
+        print("Greeeeeeeee\n")
+
+
+class Mournsnack(monster): # * |> Inharit
+    def make_sound(self):
+        print('Hiiissssshhhh\n')
+
+
+fogthing = Fogthing("Fogthing", "Yellow")
+fogthing.attack()
+fogthing.make_sound()
+
+mournsnack = Mournsnack("Mournsnack", "RED")
+mournsnack.attack()
+mournsnack.make_sound()
+ """
+
+# * OverRiding
+# * যদি সুপারক্লাসের কোন মেথড বা অ্যাট্রিবিউটকে এর একটা সাবক্লাসের মধ্যে আবার ডিফাইন করা হয় তাহলে সেগুলো অভাররাইড হয়ে যায়।
+
+
+""" class monster:
+    def __init__(self, name, color):
+        self.name = name
+        self.color = color
+
+    def attack(self):
+        print("I am attacking...")
+
+
+class Fogthing(monster):  # * |> Inharit
+    def attack(self):
+        print("I am attacking...")
+
+    def make_sound(self):  # * |> অভাররাইড
+        print("Greeeeeeeee\n")
+
+
+fogthing = Fogthing("Fogthing", "Yellow")
+fogthing.attack()
+fogthing.make_sound() """
+
+
+# * Multiple Inharitance
+
+""" class A:
+    def where(self):
+        print("I am from class A")
+
+
+class B:
+    def where(self):
+        print("I am from class B")
+
+
+class C(A, B):
+    pass
+
+an_instance_of_c = C()
+an_instance_of_c.where()
+print(C.mro()) """
+
+
+class A:
+    def spam(self):
+        print(1)
+
+class B(A):
+    def spam(self):
+        print(2)
+        super().spam()
+
+B().spam()

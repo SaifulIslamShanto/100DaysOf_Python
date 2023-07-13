@@ -27,7 +27,7 @@ else:
 
 # ***********************************************************************************************************************************
 
-import random
+""" import random
 
 options = ["Snack", "Water", "Gun"]
 print("Welcome To Snake, Water, Gun Game")
@@ -63,3 +63,73 @@ try:
 
 except Exception:
     print("Try Again, Select Valid Option")
+ """
+
+#  ----------------------------------------------------------------
+
+
+""" 
+import random
+def check(comp, user):
+    if comp == user:
+        return 0
+    if (comp == 0 and user == 1):
+        return -1
+    if (comp == 1 and user == 2):
+        return -1
+    if (comp == 2 and user == 0):
+        return -1
+
+    return 1
+
+
+comp = random.randint(0, 2)
+user = int(input("0 for Snake, 1 for Water and 2 for Gun \n"))
+
+print("You : ", user)
+print("Computer : ", comp)
+
+score = check(comp, user)
+if (score == 0):
+    print("its a Draw")
+elif score == -1:
+    print("You Lose")
+else:
+    print("you WON")
+ """
+
+
+# -> Get input From User & Computer
+
+
+
+
+import random  # -> For Random Number
+def check(computerInput, userInput):
+    if computerInput == userInput:
+        return 0
+    if computerInput == 0 and userInput == 1:
+        return -1
+    if computerInput == 1 and userInput == 2:
+        return -1
+    if computerInput == 2 and userInput == 0:
+        return -1
+
+    return 1
+
+
+computerInput = random.randint(0, 2)
+userInput = int(input("0. For Snack \n1. For Water \n2. For Gun \n:- "))
+
+print("User Input : ", userInput)
+print("Computer Input : ", computerInput)
+
+
+score = check(computerInput, userInput)
+
+if (score == 0):
+    print("Its a Draw")
+elif (score == -1):
+    print("You LOSE")
+else:
+    print("You WIN")
